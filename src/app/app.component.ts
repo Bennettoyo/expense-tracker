@@ -19,6 +19,7 @@ interface itemData {
 })
 export class AppComponent {
   title = 'expense-tracker';
+  totalCost = "2000"
   items: itemData[] = [
     {
       icon: "fas fa-coffee",
@@ -51,5 +52,9 @@ export class AppComponent {
       expense: "15"
     }
   ];
+
+  constructor() {
+
+  }
 
 }

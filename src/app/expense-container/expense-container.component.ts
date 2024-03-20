@@ -16,5 +16,5 @@ interface itemData {
 })
 export class ExpenseContainerComponent {
   @Input() items: itemData[] = [];
-
+  @Input() totalCost: string = ""
 }

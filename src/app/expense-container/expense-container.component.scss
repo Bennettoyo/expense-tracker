@@ -5,6 +5,8 @@
   margin-top: 50px;
 
   .total-container {
+    display: flex;
+    justify-content: space-around;
     background: black;
     color: white;
     display: flex;
