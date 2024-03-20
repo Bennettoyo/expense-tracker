@@ -1,0 +1,14 @@
+<div class="expense-container">
+  <div class="total-container">
+    <p>£17,800</p>
+    <p>GBP</p>
+  </div>
+  <div class="expense-list">
+    <h3 class="expense-list-title">All Expenses <button>Add Expense</button></h3>
+    <div *ngFor="let item of items" class="expense-item">
+      <i class="{{item.icon}} item-text"></i>
+      <p class="item-text">{{item.activity}}</p>
+      <p class="item-text">£{{item.expense}}</p>
+    </div>
+  </div>
+</div>

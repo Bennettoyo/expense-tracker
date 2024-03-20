@@ -1,0 +1,43 @@
+.expense-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 50px;
+
+  .total-container {
+    background: black;
+    color: white;
+    display: flex;
+    padding: 20px;
+    font-size: 30px;
+    width: 48%;
+    height: 100px;
+    border-radius: 20px;
+  }
+
+  .expense-list {
+    width: 48%;
+    height: 350px;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    .expense-list-title {
+      display: flex;
+      justify-content: space-around;
+    }
+
+    .expense-item {
+      background: lightgray;
+      border-radius: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+
+      .item-text {
+        width: 100px;
+      }
+    }
+  }
+}

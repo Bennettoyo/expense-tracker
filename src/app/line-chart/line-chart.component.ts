@@ -11,7 +11,7 @@ import { NgxChartsModule } from '@swimlane/ngx-charts';
 export class LineChartComponent {
   single = [
     {
-      "name": "Åland Islands",
+      "name": "Snacks",
       "series": [
         {
           "value": 4102,
@@ -36,7 +36,7 @@ export class LineChartComponent {
       ]
     },
     {
-      "name": "Guinea-Bissau",
+      "name": "Holidays",
       "series": [
         {
           "value": 4934,
@@ -61,7 +61,7 @@ export class LineChartComponent {
       ]
     },
     {
-      "name": "Serbia",
+      "name": "Games",
       "series": [
         {
           "value": 5853,
@@ -86,7 +86,7 @@ export class LineChartComponent {
       ]
     },
     {
-      "name": "French Polynesia",
+      "name": "Shopping",
       "series": [
         {
           "value": 2118,
@@ -111,7 +111,7 @@ export class LineChartComponent {
       ]
     },
     {
-      "name": "Angola",
+      "name": "Drinks",
       "series": [
         {
           "value": 4392,
