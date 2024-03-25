@@ -50,6 +50,26 @@ export class AppComponent {
       icon: "fas fa-utensils",
       activity: "KFC",
       expense: "15"
+    },
+    {
+      icon: "fas fa-shopping-cart",
+      activity: "Food Shop",
+      expense: "100"
+    },
+    {
+      icon: "fas fa-utensils",
+      activity: "KFC",
+      expense: "15"
+    },
+    {
+      icon: "fas fa-shopping-cart",
+      activity: "Food Shop",
+      expense: "100"
+    },
+    {
+      icon: "fas fa-utensils",
+      activity: "KFC",
+      expense: "15"
     }
   ];
 

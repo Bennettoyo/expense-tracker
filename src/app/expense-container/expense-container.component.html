@@ -4,7 +4,7 @@
     <p>GBP</p>
   </div>
   <div class="expense-list">
-    <h3 class="expense-list-title">All Expenses <button>Add Expense</button></h3>
+    <h3 class="expense-list-title">All Expenses <button (click)="openModal()">Add Expense</button></h3>
     <div *ngFor="let item of items" class="expense-item">
       <i class="{{item.icon}} item-text"></i>
       <p class="item-text">{{item.activity}}</p>

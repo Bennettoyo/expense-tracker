@@ -1,5 +1,7 @@
 import { CommonModule } from '@angular/common';
 import { Component, Input } from '@angular/core';
+import { ModalComponent } from '../modal/modal.component';
+import { MatDialog } from '@angular/material/dialog';
 
 interface itemData {
   icon: string;
@@ -16,5 +18,18 @@ interface itemData {
 })
 export class ExpenseContainerComponent {
   @Input() items: itemData[] = [];
-  @Input() totalCost: string = ""
+  @Input() totalCost: string = "";
+
+  constructor(private dialog: MatDialog) {}
+
+  openModal(): void {
+    const dialogRef = this.dialog.open(ModalComponent, {
+      width: '250px' // Customize the width of the modal
+    });
+
+    // Handle modal close event if needed
+    dialogRef.afterClosed().subscribe(result => {
+      console.log('The dialog was closed');
+    });
+  }
 }
