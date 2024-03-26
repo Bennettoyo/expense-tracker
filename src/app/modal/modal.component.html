@@ -1,3 +1,21 @@
-<input type="text">
-<input type="text">
-<input type="text">
+<div class="input-group">
+  <label for="expense">Expense</label>
+  <span class="currency-symbol">£</span>
+  <input class="currency-input" type="text" id="expense" name="expense">
+</div>
+<div class="input-group">
+  <label for="category">Category</label>
+  <select id="category" name="category">
+    <option value="holiday">Holiday</option>
+    <option value="drinks">Drinks</option>
+    <option value="food">Food</option>
+    <option value="games">Games</option>
+    <option value="sport">Sport</option>
+    <option value="streaming">Streaming</option>
+  </select>
+</div>
+<div class="input-group">
+  <label for="description">Description</label>
+  <input type="text" id="description" name="description">
+</div>
+<button>Add</button>

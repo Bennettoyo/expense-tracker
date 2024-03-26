@@ -24,7 +24,8 @@ export class ExpenseContainerComponent {
 
   openModal(): void {
     const dialogRef = this.dialog.open(ModalComponent, {
-      width: '250px' // Customize the width of the modal
+      width: '400px',
+      height: '400px',
     });
 
     // Handle modal close event if needed
